@@ -1,0 +1,40 @@
+:root{
+  --verde: #198754;
+  --cyan: #0dcaf0;
+  --rojo: #ca0b00
+}
+
+.boton-verde{
+  color: white;
+  background-color: var(--verde);
+}
+
+.boton-verde:hover{
+  border: solid 1px var(--verde);
+  color: var(--verde);
+  background-color: transparent;
+}
+.boton-azul{
+  color: white;
+  background-color: var(--cyan);
+}
+
+.boton-azul:hover{
+  border: solid 1px var(--cyan);
+  color: var(--cyan);
+  background-color: transparent;
+}
+.boton-rojo{
+  color: white;
+  background-color: var(--rojo);
+}
+
+.boton-rojo:hover{
+  border: solid 1px var(--rojo);
+  color: var(--rojo);
+  background-color: transparent;
+}
+
+.volver:hover{
+  text-decoration: underline;
+}
